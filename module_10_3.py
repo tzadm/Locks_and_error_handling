@@ -17,7 +17,6 @@ class Bank:
             sleep(0.001)
 
     def take(self):
-        from random import randint
         for i in range(100):
             num = randint(50, 500)
             from time import sleep
